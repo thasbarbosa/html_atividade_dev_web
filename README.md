@@ -13,7 +13,7 @@ Ele é dividido em quatro páginas principais:
 
 Tecnologias utilizadas
 
-- HTML5  
+- HTML 
 - CSS
 
 Funcionalidades
