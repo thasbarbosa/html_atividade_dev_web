@@ -14,8 +14,7 @@ Ele é dividido em quatro páginas principais:
 Tecnologias utilizadas
 
 - HTML5  
-- CSS3  
-- JavaScript básico para navegação entre seções.
+- CSS
 
 Funcionalidades
   
