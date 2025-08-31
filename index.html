@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- ***HEADER*** -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Meu Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#" data-section="sobre">Sobre Mim</a></li>
+                    <li><a href="#" data-section="formacao">Formação</a></li>
+                    <li><a href="#" data-section="portfolio">Portfólio</a></li>
+                    <li><a href="#" data-section="contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- ***SOBRE MIM*** -->
+
+        <section id="sobre" class="active">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá, mundo! Meu nome é Thaís Barbosa. Sou estudante de Ciências de Dados na Uninter e apaixonada por tecnologia, análise de dados e investigação.</p>
+                 <p>Desde cedo, sempre tive uma curiosidade pelo mundo ao meu redor e uma facilidade para analizar problemas e buscar soluções. Essa característica me levou a explorar diferentes áreas do conhecimento de forma autodidata, desde linguagens de programação até sistemas operacionais, o que me deu uma base sólida em tecnologia. </p>
+                 <p>Atualmente trabalho na área de suporte técnico, experiêrncia que reforçou minhas habilidades de organização, investigação de casos e comunicação. Ao longo da minha trajetória, descobri na Ciências de Dados uma forma de unir meu interesse por tecnologia, ciência e análise crítica. </p> <p>Meu objetivo é aprofundar meus conhecimentos na área e aplicá-los em projetos científicos, contribuindo para gerar conhecimento e transformar dados em insights significativos.</p> 
+                </div>
+            </div>
+        </section>
+
+        <!-- ***FORMAÇÃO*** -->
+
+        <section id="formacao">
+            <h2>Formação Educacional</h2>
+            <div class="educacao-item">
+                <h3>Tecnólogo em Ciências de Dados</h3>
+                <span class="date">2024 - 2027 (Previsão de conclusão)</span>
+                <p>Centro Universitário Internacional - UNINTER</p>
+                <p>Curso focado na identificação e absorção de grandes massas de dados, técnicas estatísticas, inteligência artificial e gestão de projetos.</p> 
+                <br><h3>Tecnólogo em Desenho Gráfico </h3>
+                <span class="date">Concluído em 2020</span>
+                <p>CICE - Escuela Profesional de Nuevas Tecnologias</p>
+                <p>Curso focado em desenho gráfico, criação de marcas e desenho de identidades corporativas.</p>
+            </div>
+            
+            <div class="educacao-item">
+                <h3>Idiomas</h3>
+                <p>Espanhol: Nativo</p>
+                <p>Inglês: Intermediário</p>
+                <p>Português: Nativo</p>
+            </div>
+            
+            <div class="educacao-item">
+                <h3>Cursos Complementares</h3>
+                <p>Machine Learning y Data Science: Curso Completo con Python - Udemy (2025)</p>
+                <p>Fundamentos de IA para todos - IBM (2025)</p>
+                <p>Introdução a Base de dados - Coursera (2024)</p>
+            </div>
+        </section>
+
+        <!-- ***PORTFÓLIO*** -->
+
+        <section id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">Projeto MySQL</div>
+                    <div class="portfolio-info">
+                        <h3>Modelo Entidade-Relacionamento</h3>
+                        <p>Projeto acadêmico desenvolvido em MySQL para modelagem e implementação, de uma rede de hotéis e uma locadora de veículos.</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                        <p><strong>Tecnologias:</strong> MySQL e Drawio</p>
+                        <a href="#" class="portfolio-link">→ Em breve no GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">Projeto Python</div>
+                    <div class="portfolio-info">
+                        <h3>Desenvolvimento de sistemas</h3>
+                        <p>Desenvolvi em Python software para uma loja de Açaí, uma copiadora, para gerencimento de livros e para uma loja de produtos atacados.</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                        <p><strong>Tecnologias:</strong> Python</p>
+                        <a href="#" class="portfolio-link">→ Em breve no GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">Site HTML/CSS</div>
+                    <div class="portfolio-info">
+                        <h3>Landing Page Responsiva</h3>
+                        <p>Site desenvolvido com HTML5, CSS3 e JavaScript para empresa fictícia de turismo, totalmente responsivo e com formulário funcional.</p>
+                        <p><strong>Status:</strong> Concluído</p>
+                        <p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
+                        <a href="#" class="portfolio-link">→ Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                <p><strong>Observação:</strong> Estou no processo de subir meus projetos para o GitHub. Em breve, esta seção estará atualizada com links para meus trabalhos de MySQL, Python e desenvolvimento web.</p>
+            </div>
+        </section>
+
+        <!-- ***CONTATO*** -->
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <div class="contact-form">
+                <form id="formContato">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+                    
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thaís Barbosa. Todos os direitos reservados.</p>
+            <p>Site desenvolvido como atividade prática da disciplina de Ferramentas de Desenvolvimento Web.</p>
+        </div>
+    </footer>
+
+    <script>
+
+        // controla a exibição das seções quando os links do menu são clicados
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // remove a classe active de todas as seções
+                document.querySelectorAll('section').forEach(section => {
+                    section.classList.remove('active');
+                });
+                
+                // adiciona a classe active à seção correspondente
+                const targetSection = this.getAttribute('data-section');
+                document.getElementById(targetSection).classList.add('active');
+                
+                window.location.hash = targetSection;
+            });
+        });
+        
+        // VALIDAÇÃO DO FORMULÁRIO DE CONTATO
+        document.getElementById('formContato').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const mensagem = document.getElementById('mensagem').value;
+            
+            // Validação básica dos campos
+            if (nome && email && mensagem) {
+                alert('Mensagem enviada com sucesso! Em breve retornarei o contato.');
+                this.reset();
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+        });
+    </script>
+</body>
+</html>
